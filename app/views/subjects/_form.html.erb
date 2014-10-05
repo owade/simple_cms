@@ -1,0 +1,16 @@
+<%= error_messages_for(@subject) %>
+
+<table summary="Subject form fields">
+      <tr>
+        <th><%=  f.label(:name,'NAME')%> </th>
+        <td><%= f.text_field(:name) %></td>
+      </tr>
+      <tr>
+        <th><%=  f.label(:position)%> </th>
+        <td><%= f.text_field(:position) %></td>
+      </tr>
+      <tr>
+        <th><%=  f.label(:visible)%> </th>
+        <td><%= f.check_box(:visible) %></td>
+      </tr>
+    </table>

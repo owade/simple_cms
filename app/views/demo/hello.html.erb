@@ -1,0 +1,14 @@
+<h1>Demo#hello</h1>
+<p>Find me in app/views/demo/hello.html.erb</p>
+
+<% @array.each do |n|%>
+<%= n %><br />
+<%end%>
+
+<%= link_to("link2",{:action => 'index'}) %>
+
+<%= link_to("link2",demo_path) %><br />
+
+ID ; <%= params[:id] %><br />
+id :<%= @id %><br />
+page :<%= @page %><br />
